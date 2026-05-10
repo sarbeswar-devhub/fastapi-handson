@@ -19,7 +19,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
 
           script: |
-            cd ~/home/ec2-user/apps/fastapi-handson
+            cd /home/ec2-user/apps/fastapi-handson
             git pull origin main
             source venv/bin/activate
             pip install -r requirements.txt
