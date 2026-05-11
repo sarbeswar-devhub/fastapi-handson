@@ -23,4 +23,4 @@ app.include_router(api_router_v1)
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {"message": "This is V1 testing api!"}
